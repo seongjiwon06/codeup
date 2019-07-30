@@ -1,0 +1,12 @@
+1039 : [기초-산술연산] 정수 두 개 입력받아 합 출력하기2
+
+#include<stdio.h>
+int main()
+{
+	long long int a,b;
+	scanf("%lld %lld",&a,&b);
+	printf("%lld",a+b);
+	
+	
+	
+}

@@ -1,0 +1,12 @@
+1038 : [기초-산술연산] 정수 두 개 입력받아 합 출력하기1
+
+#include<stdio.h>
+int main()
+{
+	int a,b;
+	scanf("%d %d",&a,&b);
+	printf("%d",a+b);
+	
+	
+	
+}
