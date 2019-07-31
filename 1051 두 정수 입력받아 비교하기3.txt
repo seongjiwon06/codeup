@@ -1,0 +1,11 @@
+1051 : [기초-비교연산] 두 정수 입력받아 비교하기3
+
+#include<stdio.h>
+int main()
+{
+	int a,b;
+	scanf("%d %d",&a,&b);
+	printf("%d",a<=b);
+	
+	
+}

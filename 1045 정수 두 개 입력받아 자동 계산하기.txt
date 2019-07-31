@@ -1,0 +1,21 @@
+1045 : [기초-산술연산] 정수 두 개 입력받아 자동 계산하기
+
+#include<stdio.h>
+int main()
+{
+	int a,b;
+	scanf("%d %d",&a,&b);
+	printf("%d\n%d\n%d\n%d\n%d\n%.2f",a+b,a-b,a*b,a/b,a%b,(float)a/(float)b);//float는 정수를 실수로 바꿔준다.
+	 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
