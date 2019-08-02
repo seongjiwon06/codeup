@@ -1,0 +1,13 @@
+1075 : [기초-반복실행구조] 정수 한 개 입력받아 카운트다운 출력하기2
+
+#include<stdio.h>
+int main()
+{
+	int i,n,m;
+	scanf("%d",&n);	
+	
+	for(i=n-1;i>=0;i=i-1)
+	{
+		printf("%d\n",i);
+	}
+}

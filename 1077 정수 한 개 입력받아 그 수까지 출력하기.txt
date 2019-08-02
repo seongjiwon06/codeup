@@ -1,0 +1,13 @@
+1077 : [기초-반복실행구조] 정수 한 개 입력받아 그 수까지 출력하기
+
+#include<stdio.h>
+int main()
+{
+	int i,n;
+	scanf("%d",&n);	
+	
+	for(i=0;i<=n;i++)
+	{
+		printf("%d\n",i);
+	}
+}
