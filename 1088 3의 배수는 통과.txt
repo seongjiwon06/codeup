@@ -1,0 +1,21 @@
+1088 : [기초-종합] 3의 배수는 통과?
+
+#include<stdio.h>
+int main()
+{
+	int i,j;
+	scanf("%d",&i);
+	for(j=1;j<=i;j++)
+	{
+		if(j%3==0)
+		{
+			 continue;
+		}
+		else
+		{
+			 printf("%d ",j);
+		}
+	 } 
+	
+
+}

@@ -1,0 +1,9 @@
+1089 : [기초-종합] 수 나열하기1 
+
+#include<stdio.h>
+int main()
+{
+	int a,b,n;
+	scanf("%d %d %d",&a,&b,&n);
+	printf("%d",a+b*(n-1)); 
+}

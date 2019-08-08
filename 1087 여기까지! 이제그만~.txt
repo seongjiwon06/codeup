@@ -1,0 +1,18 @@
+1087 : [기초-종합] 여기까지! 이제그만~ 
+
+#include<stdio.h>
+int main()
+{
+	int i,j,k=0;
+	scanf("%d",&i);
+	for(j=1;j<=i;j++)
+	{
+		k=k+j;
+		if(k>=i)
+		{
+			break;
+		}
+	 } 
+	 printf("%d",k);
+
+}
