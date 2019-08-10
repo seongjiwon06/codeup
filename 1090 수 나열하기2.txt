@@ -1,0 +1,14 @@
+1090 : [기초-종합] 수 나열하기2
+
+#include<stdio.h>
+int main()
+{
+	int a,b,n,i,k;
+	scanf("%d %d %d",&a,&b,&n);
+	k=1;
+	for(i=1;i<=n-1;i++)
+	{
+		k=k*b;
+	}
+	printf("%d",k*a); 
+}

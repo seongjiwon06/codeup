@@ -1,0 +1,18 @@
+1093 : [기초-종합+배열] 이상한 출석 번호 부르기1
+
+#include<stdio.h>
+int main()
+{
+	int a[24]={0,};//와 신기하다 
+	int n,b,i;//int=정수,%d float=실수,%f char=문자,%c  
+	scanf("%d",&n);
+	for(i=1;i<=n;i++)
+	{
+		scanf("%d",&b);
+		a[b]++;
+	}
+	for(i=1;i<=23;i++)
+	{
+		printf("%d ",a[i]);
+	}
+}
