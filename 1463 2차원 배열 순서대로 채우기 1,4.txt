@@ -1,0 +1,25 @@
+1463 : [기초-배열연습] 2차원 배열 순서대로 채우기 1-4
+
+#include<stdio.h>
+int main()
+{
+	int a[101][101];
+	int n,i,j,count=1;
+	scanf("%d",&n);
+	for(j=1;j<=n;j++)
+	{
+		for(i=n;i>=1;i--)
+		{
+			a[i][j]=count;
+			count++;	
+		}
+	}
+	for(i=1;i<=n;i++)
+	{
+		for(j=1;j<=n;j++)
+		{
+			printf("%d ", a[i][j]);	
+		}	
+		printf("\n");
+	}
+}
